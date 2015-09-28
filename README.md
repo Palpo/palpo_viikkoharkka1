@@ -1,4 +1,4 @@
-Viikkoharjoitus 2: Google App Engine
+Viikkoharjoitus 1: Google App Engine
 ------------------------------------
 
 Ensimmäisessä harjoituksessa tutustutaan Google App Engineen. Tarkoituksena on saada kehitysympäristö pystytettyä ja luoda pieni Hello World -sovellus. Sovellus voidaan täten suorittaa paikallisesti tai julkaista pilveen.
