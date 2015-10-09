@@ -48,25 +48,17 @@ Jotta SDK:n ajama sovellus kuuntelee muitakin kuin lokaaleja yhteyksiä, on sit�
 
 ## Muutama linkki
 
-Voi aloittaa vaikkapa linkistä
+Voi aloittaa vaikkapa linkistä:
 
-[https://console.developers.google.com/start/appengine](https://console.developers.google.com/start/appengine)
+* [Getting started with Python 2.7](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/introduction)
 
-App Enginen Python-dokumentaatio löytyy täältä:
+    * [SDK:n](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python) asennuksen jälkeen voi tehdä pienen [Hello World -sovelluksen](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/helloworld).
 
-[https://developers.google.com/appengine/docs/python/](https://developers.google.com/appengine/docs/python/)
+* App Engine sisältää [webapp2-sovelluskehyksen](), joka reitittää HTTP-pyynnöt sovellukselle. Muitakin sovelluskehyksiä (mm. [Django](http://www.djangoproject.com/), [Flask](http://flask.pocoo.org/)) voi käyttää. Webapp2 on kuitenkin yksinkertainen, oletuksena mukana App Enginessä ja riittää hyvin mm. harjoitustyön tekoon.
 
-ja tutoriaali alkuunpääsyä helpottamaan täältä:
+* [App Engine Python-dokumentaatio](https://cloud.google.com/appengine/docs/python/)
 
-[https://developers.google.com/appengine/docs/python/gettingstartedpython27/introduction](https://developers.google.com/appengine/docs/python/gettingstartedpython27/introduction)
-
-GAE-sovelluksiaan voi hallinnoida ja tarkkailla osoitteessa
-
-[https://appengine.google.com/](https://appengine.google.com/)
-
-tai
-
-[https://console.developers.google.com/project](https://console.developers.google.com/project)
+* Sovelluksiaan voi hallinnoida ja tarkkailla [täällä](https://appengine.google.com/) tai [täällä](https://console.developers.google.com/project)
 
 
 ## Tehtävä: luo ja aja App Engine -sovellus
