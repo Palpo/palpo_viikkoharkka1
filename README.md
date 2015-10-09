@@ -5,7 +5,7 @@ Ensimmäisessä harjoituksessa tutustutaan Google App Engineen. Tarkoituksena on
 
 ## Kehitysympäristön asennus
 
-App Engine -sovelluksia luodakseen täytyy olla Google-tili sekä asentaa [Python 2.7.x](https://www.python.org/downloads/) sekä [Google Cloud SDK](https://developers.google.com/cloud/sdk/). Sovelluksen tiedostoja voi periaatteessa muokata millä tahansa editorilla, ja sitten ajaa SDK:n komentorivityökaluilla. SDK:n mukana tulee ajoympäristö, jossa sovelluksia voi ajaa omalla koneellaan ennen julkaisua App Enginen pilveen.
+App Engine -sovelluksia luodakseen täytyy olla Google-tili sekä asentaa [Python 2.7.x](https://www.python.org/downloads/) sekä [App Engine SDK for Python](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python). Sovelluksen tiedostoja voi periaatteessa muokata millä tahansa editorilla, ja sitten ajaa SDK:n komentorivityökaluilla. SDK:n mukana tulee ajoympäristö, jossa sovelluksia voi ajaa omalla koneellaan ennen julkaisua App Enginen pilveen.
 
 Käydään tässä läpi kaksi vaihtoehtoista kehitysympäristön asennustapaa.
 
@@ -29,7 +29,7 @@ Voit esimerkiksi lisätä seuraavan rivin ~/.bashrc -tiedostoosi:
 
 jolloin sovelluksia voi käyttää esim. näin:
 
-    dev_appserver munsovellus
+    dev_appserver helloworld
 
 (Jotta PATH-muutos tulee heti voimaan voit komentaa: `source ~/.bashrc` )
 
@@ -54,7 +54,7 @@ Voi aloittaa vaikkapa linkistä:
 
     * [SDK:n](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python) asennuksen jälkeen voi tehdä pienen [Hello World -sovelluksen](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/helloworld).
 
-* App Engine sisältää [webapp2-sovelluskehyksen](), joka reitittää HTTP-pyynnöt sovellukselle. Muitakin sovelluskehyksiä (mm. [Django](http://www.djangoproject.com/), [Flask](http://flask.pocoo.org/)) voi käyttää. Webapp2 on kuitenkin yksinkertainen, oletuksena mukana App Enginessä ja riittää hyvin mm. harjoitustyön tekoon.
+* App Engine sisältää [webapp2-sovelluskehyksen](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/usingwebapp) ([tarkempi dokumentaatio](https://webapp-improved.appspot.com/)), joka reitittää HTTP-pyynnöt sovellukselle. Muitakin sovelluskehyksiä (mm. [Django](http://www.djangoproject.com/), [Flask](http://flask.pocoo.org/)) voi käyttää. Webapp2 on kuitenkin yksinkertainen, oletuksena mukana App Enginessä ja riittää hyvin mm. harjoitustyön tekoon.
 
 * [App Engine Python-dokumentaatio](https://cloud.google.com/appengine/docs/python/)
 
