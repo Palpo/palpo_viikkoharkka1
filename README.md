@@ -58,7 +58,7 @@ Voi aloittaa vaikkapa linkistä:
 
 * [App Engine Python-dokumentaatio](https://cloud.google.com/appengine/docs/python/)
 
-* Sovelluksiaan voi hallinnoida ja tarkkailla [täällä](https://appengine.google.com/) tai [täällä](https://console.developers.google.com/project)
+* App Engine -sovelluksiaan voi hallinnoida ja tarkkailla [täällä](https://appengine.google.com/) ja/tai [täällä](https://console.developers.google.com/project).
 
 
 ## Tehtävä: luo ja aja App Engine -sovellus
