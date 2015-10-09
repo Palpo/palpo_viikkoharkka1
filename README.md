@@ -67,4 +67,4 @@ Voi aloittaa vaikkapa linkistä:
 2. Luo yksinkertainen App Engine -webbisovellus, joka vaikkapa tulostaa tekstin "Moi".
 3. Aja sovellus paikallisessa kehitysympäristössä
 4. Julkaise sovellus pilveen, niin että se näkyy osoitteessa
-<sovelluksen nimi>.appspot.com
+`<sovelluksen nimi>.appspot.com`
