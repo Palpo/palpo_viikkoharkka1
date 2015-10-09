@@ -68,3 +68,5 @@ Voi aloittaa vaikkapa linkistä:
 3. Aja sovellus paikallisessa kehitysympäristössä
 4. Julkaise sovellus pilveen, niin että se näkyy osoitteessa
 `<sovelluksen nimi>.appspot.com`
+5. Lisää muutoksesi GitHub:iin
+
