@@ -23,7 +23,7 @@ Jos ei jostain syystä halua/voi asentaa kehitysympäristöä omalle koneelle, v
 Lintulaan on asennettu App Engine SDK sekä Python 2.7. SDK:n sovellukset sijaitsevat poluissa
 `/home/palpo/bin/dev_appserver` ja `/home/palpo/bin/appcfg`.
 
-Voit esimerkiksi lisätä seuraavan rivin ~/.bashrc -tiedostoosi:
+Voit esimerkiksi lisätä seuraavan rivin `~/.bash_profile` -tiedostoosi:
 
     export PATH="$PATH:/home/palpo/bin/"
 
@@ -31,7 +31,7 @@ jolloin sovelluksia voi käyttää esim. näin:
 
     dev_appserver helloworld
 
-(Jotta PATH-muutos tulee heti voimaan voit komentaa: `source ~/.bashrc` )
+(Jotta PATH-muutos tulee heti voimaan voit komentaa: `source ~/.bash_profile` )
 
 #### Porttiforwardointi
 
