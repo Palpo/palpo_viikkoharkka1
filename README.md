@@ -27,9 +27,13 @@ Voit esimerkiksi lisätä seuraavan rivin `~/.bash_profile` -tiedostoosi:
 
     export PATH="$PATH:/home/palpo/bin/"
 
-jolloin sovelluksia voi käyttää esim. näin:
+jolloin sovelluksia voi ajaa paikallisesti näin:
 
     dev_appserver helloworld
+
+ja julkaista näin:
+
+    appcfg --noauth_local_webserver -A helloworld_sovellukseni_id update helloworld
 
 (Jotta PATH-muutos tulee heti voimaan voit komentaa: `source ~/.bash_profile` )
 
@@ -57,6 +61,8 @@ Voi aloittaa vaikkapa linkistä:
 * App Engine sisältää [webapp2-sovelluskehyksen](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/usingwebapp) ([tarkempi dokumentaatio](https://webapp-improved.appspot.com/)), joka reitittää HTTP-pyynnöt sovellukselle. Muitakin sovelluskehyksiä (mm. [Django](http://www.djangoproject.com/), [Flask](http://flask.pocoo.org/)) voi käyttää. Webapp2 on kuitenkin yksinkertainen, oletuksena mukana App Enginessä ja riittää hyvin mm. harjoitustyön tekoon.
 
 * [App Engine Python-dokumentaatio](https://cloud.google.com/appengine/docs/python/)
+
+* [Ohjeita App Engine -sovelluksen julkaisuun](https://cloud.google.com/appengine/docs/python/gettingstartedpython27/uploading)
 
 * App Engine -sovelluksiaan voi hallinnoida ja tarkkailla [täällä](https://appengine.google.com/) ja/tai [täällä](https://console.developers.google.com/project).
 
